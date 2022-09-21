@@ -1,0 +1,90 @@
+
+* {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+}
+.todo-container {
+    width: 80%;
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 40px;
+    box-sizing: border-box;
+    box-shadow: inset whitesmoke;
+    margin-top: 20px;
+}
+.todo-container .todo-form input {
+    width: 90%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    outline: none;
+    border: 2px solid gainsboro;
+    border-radius: 15px;
+}
+#table-data {
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    width: 70%;
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+  }
+  
+  #table-data td, #table-data th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #table-data th {
+
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #e8ecea;
+    color: rgb(88, 86, 86);
+  }
+  .btn{
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+  }
+  td button{
+    margin: 10px;
+  }
+ 
+  .icons i{
+    font-size: 20px;
+    padding: 10px;
+  }
+  h1 {
+    font-family: 'Inconsolata', monospace;
+  }
+  .reset_button {
+    text-align: right;
+    position: relative;
+    right: 100px;
+    top: 20px;
+  }
+  .icons button {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .icons button:first-child {
+    background-color: rgb(231, 120, 30);
+    color:white
+  }
+  .icons button:last-child {
+    background-color: rgb(34, 239, 157);
+    color: white;
+  }
+  .reset_button button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: pink;
+  }
